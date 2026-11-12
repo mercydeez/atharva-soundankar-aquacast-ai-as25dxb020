@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport } from "ai";
+import Markdown from "react-markdown";
 import { Bot, Send, Sparkles, User } from "lucide-react";
 import { useData } from "@/components/data-provider";
 import { Note, PageHeader, Panel } from "@/components/blocks";
@@ -73,8 +74,8 @@ function Assistant() {
                 <span className={cn("grid size-8 shrink-0 place-items-center rounded-full", m.role === "user" ? "bg-primary text-primary-foreground" : "bg-accent text-accent-foreground")}>
                   {m.role === "user" ? <User className="size-4" /> : <Bot className="size-4" />}
                 </span>
-                <div className={cn("max-w-[85%] whitespace-pre-wrap rounded-2xl px-4 py-3 text-sm leading-relaxed", m.role === "user" ? "bg-primary text-primary-foreground" : "border bg-muted/40")}>
-                  {m.parts.map((p, i) => (p.type === "text" ? <span key={i}>{p.text}</span> : null))}
+                <div className={cn("max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-relaxed", m.role === "user" ? "whitespace-pre-wrap bg-primary text-primary-foreground" : "md border bg-muted/40")}>
+                  {m.parts.map((p, i) => (p.type !== "text" ? null : m.role === "user" ? <span key={i}>{p.text}</span> : <Markdown key={i}>{p.text}</Markdown>))}
                 </div>
               </div>
             ))}
