@@ -19,7 +19,7 @@ export async function POST(req: Request) {
   }
   const ctx = JSON.stringify(context ?? {}).slice(0, 60000);
   const result = streamText({
-    model: google(process.env.GEMINI_MODEL || "gemini-3.6-flash"),
+    model: google(process.env.GEMINI_MODEL || "gemini-3.5-flash-lite"),
     instructions: `${SYSTEM}\n\nANALYTICS JSON:\n${ctx}`,
     messages: await convertToModelMessages(messages.slice(-12)),
     providerOptions: { google: { thinkingConfig: { thinkingLevel: "low" } } satisfies GoogleLanguageModelOptions },

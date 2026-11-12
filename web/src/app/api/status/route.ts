@@ -5,6 +5,6 @@ export async function GET() {
   return Response.json({
     llmConfigured: Boolean(process.env.GOOGLE_GENERATIVE_AI_API_KEY),
     provider: "Google Gemini",
-    model: process.env.GEMINI_MODEL || "gemini-3.6-flash",
+    model: process.env.GEMINI_MODEL || "gemini-3.5-flash-lite",
   });
 }

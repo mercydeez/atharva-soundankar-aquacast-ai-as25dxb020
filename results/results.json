@@ -7,7 +7,7 @@
   "institution": "SP Jain School of Global Management",
   "subject": "AI in Operations",
   "instructor": "Dr. Sandip Kumar Roy",
-  "generated_at": "2026-11-12T14:38:30",
+  "generated_at": "2026-11-12T15:18:18",
   "data_mode": "USDA ERS official download",
   "source_name": "USDA ERS Weekly Retail Food Sales (national, by product subcategory)",
   "source_page": "https://www.ers.usda.gov/data-products/weekly-retail-food-sales",
@@ -939,7 +939,7 @@
  },
  "llm": {
   "provider": "Google Gemini",
-  "model": "gemini-3.6-flash",
+  "model": "gemini-3.5-flash-lite",
   "status": "fallback",
   "text": "[FALLBACK: deterministic summary, not an LLM response. Add GEMINI_API_KEY to Colab Secrets and re-run.] Seasonality is clear: seasonal strength 0.91 on a 0 to 1 scale. Demand peaks in Jul (123% of an average month) and bottoms out in Feb (84%). Trend strength is 0.29; the last 12 months are -5.2% versus the 12 before. The seasonal models capture this pattern, while Naive cannot, because it simply carries the last month forward. SARIMA performed best, with rolling-origin WAPE 2.34% and MAPE 2.29% over 12 test months (3-month holdout WAPE 2.75%), against 12.04% for the Naive baseline. Ranking by WAPE: SARIMA 2.34%, Random Forest 5.21%, Seasonal Naive 5.54%, Naive 12.04%. It wins because it models the 12-month seasonal cycle and the level of recent months together. Plan production for 2023-05 to 2023-07 at about 2,302 million category units in total (-8.0% versus the same months last year), and scale that to the new product's expected share."
  }
