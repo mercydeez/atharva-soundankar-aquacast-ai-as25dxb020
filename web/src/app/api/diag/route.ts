@@ -1,7 +1,7 @@
 import { connection } from "next/server";
 
 // TEMPORARY diagnostics for the Gemini connection. Returns timings and status codes only, never the key.
-export async function GET() {
+export async function GET(req: Request) {
   await connection();
   const key = process.env.GOOGLE_GENERATIVE_AI_API_KEY ?? "";
   const base = "https://generativelanguage.googleapis.com/v1beta";
@@ -14,14 +14,15 @@ export async function GET() {
   } catch (e) {
     out.list = { error: String(e), ms: Date.now() - t0 };
   }
-  for (const model of [process.env.GEMINI_MODEL || "gemini-3.6-flash", "gemini-flash-latest"]) {
+  const models = (new URL(req.url).searchParams.get("models") ?? "gemini-3.6-flash").split(",").slice(0, 5);
+  for (const model of models) {
     const t1 = Date.now();
     try {
       const r = await fetch(`${base}/models/${model}:generateContent`, {
         method: "POST",
         headers: { "x-goog-api-key": key.trim(), "Content-Type": "application/json" },
         body: JSON.stringify({ contents: [{ role: "user", parts: [{ text: "Reply with the single word OK." }] }] }),
-        signal: AbortSignal.timeout(20000),
+        signal: AbortSignal.timeout(12000),
       });
       const j = await r.json();
       out[model] = { status: r.status, ms: Date.now() - t1, text: j.candidates?.[0]?.content?.parts?.map((p: { text?: string }) => p.text).join("").slice(0, 40), error: j.error?.message?.slice(0, 200) };
