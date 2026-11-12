@@ -7,7 +7,8 @@ Monthly demand forecasting and AI business intelligence for a new flavoured-wate
 > **Assignment:** AI in Operations, Session II Lab Activity: Forecasting Monthly Sales for a New Beverage Product
 > **Student:** Atharva Soundankar · **Roll number:** AS25DXB020 · **Programme:** MAIB, September 2025 · SP Jain School of Global Management · **Instructor:** Dr. Sandip Kumar Roy
 
-<!-- LINKS -->
+- **Live app:** https://atharva-aquacast-ai.vercel.app
+- **GitHub:** https://github.com/mercydeez/atharva-soundankar-aquacast-ai-as25dxb020
 - **Google Colab notebook:** [Open in Colab](https://colab.research.google.com/github/mercydeez/atharva-soundankar-aquacast-ai-as25dxb020/blob/main/notebook/Atharva_Soundankar_AS25DXB020_Beverage_Forecasting.ipynb)
 - **One-page report:** [`report/Atharva_Soundankar_AS25DXB020_Report.pdf`](report/Atharva_Soundankar_AS25DXB020_Report.pdf)
 
@@ -53,7 +54,7 @@ web/        Next.js app (App Router, TypeScript, Tailwind, shadcn/ui, Recharts, 
 
 - **Demo data** comes from `web/src/data/results.json`, a copy of the notebook's export, so the dashboard shows exactly the notebook's numbers.
 - **Uploads:** an uploaded CSV of monthly or weekly sales is validated in the browser. It is then retrained on the server (`/api/forecast`) by a TypeScript engine (Naive, Seasonal Naive, Holt-Winters, Lag Regression) using the same rolling-origin MAPE and WAPE. The app labels clearly whether you are seeing notebook results or results computed just now.
-- **AI Copilot** (`/api/chat`): Gemini via `@ai-sdk/google`. Every question is sent with the computed analytics JSON of the active dataset, and the model is told to use only those numbers. Without `GOOGLE_GENERATIVE_AI_API_KEY`, the app shows a labelled rule-based fallback.
+- **AI Copilot** (`/api/chat`): Gemini (`gemini-3.5-flash-lite`, overridable with `GEMINI_MODEL`) via `@ai-sdk/google`. Every question is sent with the computed analytics JSON of the active dataset, and the model is told to use only those numbers. Without `GOOGLE_GENERATIVE_AI_API_KEY`, the app shows a labelled rule-based fallback.
 - **Pages:** Executive Dashboard, Data Workspace, Sales Analysis, Forecasting Lab, Model Comparison, Forecast Insights, AI Copilot, Business Planner, Reports & Methodology.
 
 ## Run locally

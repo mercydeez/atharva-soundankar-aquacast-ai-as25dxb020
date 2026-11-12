@@ -1,0 +1,18 @@
+AQUACAST AI — ASSIGNMENT SUBMISSION
+
+Student Name: Atharva Soundankar
+Roll Number: AS25DXB020
+Programme: MAIB — September 2025
+Subject: AI in Operations
+
+1. PUBLIC GOOGLE COLAB NOTEBOOK
+URL: https://colab.research.google.com/github/mercydeez/atharva-soundankar-aquacast-ai-as25dxb020/blob/main/notebook/Atharva_Soundankar_AS25DXB020_Beverage_Forecasting.ipynb
+
+2. LIVE VERCEL WEBSITE
+URL: https://atharva-aquacast-ai.vercel.app
+
+3. GITHUB REPOSITORY
+URL: https://github.com/mercydeez/atharva-soundankar-aquacast-ai-as25dxb020
+
+Dataset Source: https://www.ers.usda.gov/data-products/weekly-retail-food-sales
+Submission Date: 12 November 2026
