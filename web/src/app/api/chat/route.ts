@@ -1,7 +1,7 @@
 import { convertToModelMessages, createUIMessageStreamResponse, streamText, toUIMessageStream, type UIMessage } from "ai";
-import { google } from "@ai-sdk/google";
+import { google, type GoogleLanguageModelOptions } from "@ai-sdk/google";
 
-export const maxDuration = 30;
+export const maxDuration = 60;
 
 const SYSTEM = `You are AQUACAST AI Copilot, a demand-forecasting analyst for a beverage company launching a new flavoured-water product.
 Ground every statement in the ANALYTICS JSON supplied below. It is computed by the app from the dataset currently loaded.
@@ -22,6 +22,9 @@ export async function POST(req: Request) {
     model: google(process.env.GEMINI_MODEL || "gemini-3.6-flash"),
     instructions: `${SYSTEM}\n\nANALYTICS JSON:\n${ctx}`,
     messages: await convertToModelMessages(messages.slice(-12)),
+    providerOptions: { google: { thinkingConfig: { thinkingLevel: "low" } } satisfies GoogleLanguageModelOptions },
+    abortSignal: AbortSignal.timeout(50_000),
+    onError: ({ error }) => console.error("[chat] Gemini error:", error instanceof Error ? `${error.name}: ${error.message}` : error),
   });
   return createUIMessageStreamResponse({ stream: toUIMessageStream({ stream: result.stream }) });
 }
