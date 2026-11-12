@@ -1,0 +1,946 @@
+{
+ "meta": {
+  "product": "AQUACAST AI",
+  "student": "Atharva Soundankar",
+  "roll": "AS25DXB020",
+  "programme": "MAIB, September 2025",
+  "institution": "SP Jain School of Global Management",
+  "subject": "AI in Operations",
+  "instructor": "Dr. Sandip Kumar Roy",
+  "generated_at": "2026-11-12T14:38:30",
+  "data_mode": "USDA ERS official download",
+  "source_name": "USDA ERS Weekly Retail Food Sales (national, by product subcategory)",
+  "source_page": "https://www.ers.usda.gov/data-products/weekly-retail-food-sales",
+  "source_file": "https://www.ers.usda.gov/media/6554/weekly-retail-food-sales-national-total-and-by-product-subcategory.csv",
+  "publisher": "USDA Economic Research Service (data: Circana)",
+  "download_date": "2026-11-12",
+  "series": "Beverages / Water, unit sales (US national)",
+  "first_week_ending": "2018-10-07",
+  "last_week_ending": "2023-05-07",
+  "first_month": "2018-10",
+  "last_month": "2023-04",
+  "n_months": 55,
+  "dropped_partial_months": [
+   "2023-05"
+  ],
+  "horizon": 3,
+  "n_folds": 4,
+  "seed": 42,
+  "proxy_note": "Category-level national water sales used as a proxy for a new flavoured-water product. Not live sales."
+ },
+ "monthly": [
+  {
+   "month": "2018-10",
+   "units": 665589001.0,
+   "dollars": 1388485421.0
+  },
+  {
+   "month": "2018-11",
+   "units": 583657417.0,
+   "dollars": 1224297833.0
+  },
+  {
+   "month": "2018-12",
+   "units": 592471752.0,
+   "dollars": 1243437256.0
+  },
+  {
+   "month": "2019-01",
+   "units": 619896557.0,
+   "dollars": 1311264103.0
+  },
+  {
+   "month": "2019-02",
+   "units": 566255769.0,
+   "dollars": 1195291534.0
+  },
+  {
+   "month": "2019-03",
+   "units": 680439279.0,
+   "dollars": 1432531970.0
+  },
+  {
+   "month": "2019-04",
+   "units": 700784844.0,
+   "dollars": 1483775463.0
+  },
+  {
+   "month": "2019-05",
+   "units": 776497862.0,
+   "dollars": 1635520438.0
+  },
+  {
+   "month": "2019-06",
+   "units": 796747645.0,
+   "dollars": 1679118003.0
+  },
+  {
+   "month": "2019-07",
+   "units": 874371723.0,
+   "dollars": 1856983826.0
+  },
+  {
+   "month": "2019-08",
+   "units": 850882825.0,
+   "dollars": 1820793892.0
+  },
+  {
+   "month": "2019-09",
+   "units": 737573431.0,
+   "dollars": 1575096351.0
+  },
+  {
+   "month": "2019-10",
+   "units": 682083397.0,
+   "dollars": 1461032622.0
+  },
+  {
+   "month": "2019-11",
+   "units": 608879209.0,
+   "dollars": 1305162818.0
+  },
+  {
+   "month": "2019-12",
+   "units": 610596220.0,
+   "dollars": 1312705775.0
+  },
+  {
+   "month": "2020-01",
+   "units": 638429437.0,
+   "dollars": 1372785716.0
+  },
+  {
+   "month": "2020-02",
+   "units": 620929826.0,
+   "dollars": 1336440793.0
+  },
+  {
+   "month": "2020-03",
+   "units": 810008086.0,
+   "dollars": 1897345334.0
+  },
+  {
+   "month": "2020-04",
+   "units": 564937313.0,
+   "dollars": 1307419696.0
+  },
+  {
+   "month": "2020-05",
+   "units": 704681430.0,
+   "dollars": 1594562758.0
+  },
+  {
+   "month": "2020-06",
+   "units": 805248992.0,
+   "dollars": 1811643695.0
+  },
+  {
+   "month": "2020-07",
+   "units": 877746863.0,
+   "dollars": 1974361771.0
+  },
+  {
+   "month": "2020-08",
+   "units": 853411183.0,
+   "dollars": 1914805239.0
+  },
+  {
+   "month": "2020-09",
+   "units": 730017483.0,
+   "dollars": 1640149165.0
+  },
+  {
+   "month": "2020-10",
+   "units": 703430057.0,
+   "dollars": 1589503889.0
+  },
+  {
+   "month": "2020-11",
+   "units": 633437629.0,
+   "dollars": 1456418190.0
+  },
+  {
+   "month": "2020-12",
+   "units": 609401943.0,
+   "dollars": 1384688656.0
+  },
+  {
+   "month": "2021-01",
+   "units": 656060185.0,
+   "dollars": 1499171036.0
+  },
+  {
+   "month": "2021-02",
+   "units": 604719469.0,
+   "dollars": 1389596013.0
+  },
+  {
+   "month": "2021-03",
+   "units": 729750401.0,
+   "dollars": 1676438344.0
+  },
+  {
+   "month": "2021-04",
+   "units": 747857490.0,
+   "dollars": 1726940568.0
+  },
+  {
+   "month": "2021-05",
+   "units": 829030186.0,
+   "dollars": 1917416923.0
+  },
+  {
+   "month": "2021-06",
+   "units": 871028012.0,
+   "dollars": 2037383340.0
+  },
+  {
+   "month": "2021-07",
+   "units": 904262038.0,
+   "dollars": 2124360161.0
+  },
+  {
+   "month": "2021-08",
+   "units": 903229089.0,
+   "dollars": 2162662798.0
+  },
+  {
+   "month": "2021-09",
+   "units": 785206961.0,
+   "dollars": 1916137523.0
+  },
+  {
+   "month": "2021-10",
+   "units": 732667177.0,
+   "dollars": 1814830185.0
+  },
+  {
+   "month": "2021-11",
+   "units": 645407245.0,
+   "dollars": 1607448493.0
+  },
+  {
+   "month": "2021-12",
+   "units": 658120291.0,
+   "dollars": 1654658167.0
+  },
+  {
+   "month": "2022-01",
+   "units": 661099542.0,
+   "dollars": 1682430941.0
+  },
+  {
+   "month": "2022-02",
+   "units": 611691141.0,
+   "dollars": 1570664851.0
+  },
+  {
+   "month": "2022-03",
+   "units": 713716389.0,
+   "dollars": 1861135454.0
+  },
+  {
+   "month": "2022-04",
+   "units": 714593731.0,
+   "dollars": 1904972130.0
+  },
+  {
+   "month": "2022-05",
+   "units": 806669489.0,
+   "dollars": 2186336630.0
+  },
+  {
+   "month": "2022-06",
+   "units": 831181051.0,
+   "dollars": 2283242989.0
+  },
+  {
+   "month": "2022-07",
+   "units": 862989204.0,
+   "dollars": 2404506117.0
+  },
+  {
+   "month": "2022-08",
+   "units": 833990736.0,
+   "dollars": 2354769562.0
+  },
+  {
+   "month": "2022-09",
+   "units": 749371351.0,
+   "dollars": 2156376290.0
+  },
+  {
+   "month": "2022-10",
+   "units": 679814740.0,
+   "dollars": 1962885126.0
+  },
+  {
+   "month": "2022-11",
+   "units": 608385558.0,
+   "dollars": 1793427583.0
+  },
+  {
+   "month": "2022-12",
+   "units": 619056251.0,
+   "dollars": 1841091557.0
+  },
+  {
+   "month": "2023-01",
+   "units": 621856114.0,
+   "dollars": 1858159921.0
+  },
+  {
+   "month": "2023-02",
+   "units": 581780816.0,
+   "dollars": 1746798332.0
+  },
+  {
+   "month": "2023-03",
+   "units": 668826041.0,
+   "dollars": 2007356925.0
+  },
+  {
+   "month": "2023-04",
+   "units": 692158886.0,
+   "dollars": 2080635972.0
+  }
+ ],
+ "eda": {
+  "trend_strength": 0.2896,
+  "seasonal_strength": 0.9136,
+  "seasonal_index": {
+   "Jan": 89.7,
+   "Feb": 83.7,
+   "Mar": 101.0,
+   "Apr": 95.9,
+   "May": 109.3,
+   "Jun": 115.8,
+   "Jul": 123.4,
+   "Aug": 120.6,
+   "Sep": 105.2,
+   "Oct": 97.1,
+   "Nov": 86.4,
+   "Dec": 86.6
+  },
+  "peak_month": "Jul",
+  "trough_month": "Feb",
+  "annual_totals": {
+   "2019": 8505008761.0,
+   "2020": 8551680242.0,
+   "2021": 9067338544.0,
+   "2022": 8692559183.0
+  },
+  "last12_vs_prev12_pct": -5.2488
+ },
+ "models": [
+  {
+   "key": "naive",
+   "name": "Naive",
+   "cv_mape": 11.9303,
+   "cv_wape": 12.0422,
+   "holdout_mape": 8.0227,
+   "holdout_wape": 8.0992,
+   "folds": [
+    {
+     "train_end": "2022-04",
+     "test_months": [
+      "2022-05",
+      "2022-06",
+      "2022-07"
+     ],
+     "actual": [
+      806669489.0,
+      831181051.0,
+      862989204.0
+     ],
+     "pred": [
+      714593731.0,
+      714593731.0,
+      714593731.0
+     ],
+     "mape": 14.2122,
+     "wape": 14.2775,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-07",
+     "test_months": [
+      "2022-08",
+      "2022-09",
+      "2022-10"
+     ],
+     "actual": [
+      833990736.0,
+      749371351.0,
+      679814740.0
+     ],
+     "pred": [
+      862989204.0,
+      862989204.0,
+      862989204.0
+     ],
+     "mape": 15.1945,
+     "wape": 14.3953,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-10",
+     "test_months": [
+      "2022-11",
+      "2022-12",
+      "2023-01"
+     ],
+     "actual": [
+      608385558.0,
+      619056251.0,
+      621856114.0
+     ],
+     "pred": [
+      679814740.0,
+      679814740.0,
+      679814740.0
+     ],
+     "mape": 10.2919,
+     "wape": 10.2821,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2023-01",
+     "test_months": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+     ],
+     "actual": [
+      581780816.0,
+      668826041.0,
+      692158886.0
+     ],
+     "pred": [
+      621856114.0,
+      621856114.0,
+      621856114.0
+     ],
+     "mape": 8.0227,
+     "wape": 8.0992,
+     "zero_actuals": 0
+    }
+   ]
+  },
+  {
+   "key": "snaive",
+   "name": "Seasonal Naive",
+   "cv_mape": 5.584,
+   "cv_wape": 5.5396,
+   "holdout_mape": 5.0314,
+   "holdout_wape": 5.005,
+   "folds": [
+    {
+     "train_end": "2022-04",
+     "test_months": [
+      "2022-05",
+      "2022-06",
+      "2022-07"
+     ],
+     "actual": [
+      806669489.0,
+      831181051.0,
+      862989204.0
+     ],
+     "pred": [
+      829030186.0,
+      871028012.0,
+      904262038.0
+     ],
+     "mape": 4.1162,
+     "wape": 4.1378,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-07",
+     "test_months": [
+      "2022-08",
+      "2022-09",
+      "2022-10"
+     ],
+     "actual": [
+      833990736.0,
+      749371351.0,
+      679814740.0
+     ],
+     "pred": [
+      903229089.0,
+      785206961.0,
+      732667177.0
+     ],
+     "mape": 6.9529,
+     "wape": 6.9781,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-10",
+     "test_months": [
+      "2022-11",
+      "2022-12",
+      "2023-01"
+     ],
+     "actual": [
+      608385558.0,
+      619056251.0,
+      621856114.0
+     ],
+     "pred": [
+      645407245.0,
+      658120291.0,
+      661099542.0
+     ],
+     "mape": 6.2354,
+     "wape": 6.2364,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2023-01",
+     "test_months": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+     ],
+     "actual": [
+      581780816.0,
+      668826041.0,
+      692158886.0
+     ],
+     "pred": [
+      611691141.0,
+      713716389.0,
+      714593731.0
+     ],
+     "mape": 5.0314,
+     "wape": 5.005,
+     "zero_actuals": 0
+    }
+   ]
+  },
+  {
+   "key": "sarima",
+   "name": "SARIMA",
+   "cv_mape": 2.2914,
+   "cv_wape": 2.34,
+   "holdout_mape": 2.654,
+   "holdout_wape": 2.7491,
+   "folds": [
+    {
+     "train_end": "2022-04",
+     "test_months": [
+      "2022-05",
+      "2022-06",
+      "2022-07"
+     ],
+     "actual": [
+      806669489.0,
+      831181051.0,
+      862989204.0
+     ],
+     "pred": [
+      795264721.0,
+      846789049.0,
+      891441371.0
+     ],
+     "mape": 2.1962,
+     "wape": 2.2179,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-07",
+     "test_months": [
+      "2022-08",
+      "2022-09",
+      "2022-10"
+     ],
+     "actual": [
+      833990736.0,
+      749371351.0,
+      679814740.0
+     ],
+     "pred": [
+      858854643.0,
+      746726713.0,
+      728388725.0
+     ],
+     "mape": 3.4931,
+     "wape": 3.3618,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-10",
+     "test_months": [
+      "2022-11",
+      "2022-12",
+      "2023-01"
+     ],
+     "actual": [
+      608385558.0,
+      619056251.0,
+      621856114.0
+     ],
+     "pred": [
+      611016936.0,
+      614266332.0,
+      629693808.0
+     ],
+     "mape": 0.8222,
+     "wape": 0.8251,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2023-01",
+     "test_months": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+     ],
+     "actual": [
+      581780816.0,
+      668826041.0,
+      692158886.0
+     ],
+     "pred": [
+      588554137.0,
+      656892541.0,
+      657457597.0
+     ],
+     "mape": 2.654,
+     "wape": 2.7491,
+     "zero_actuals": 0
+    }
+   ],
+   "params": {
+    "order": [
+     1,
+     1,
+     0
+    ],
+    "seasonal_order": [
+     1,
+     0,
+     0,
+     12
+    ],
+    "aic": 1592.7
+   }
+  },
+  {
+   "key": "rf",
+   "name": "Random Forest",
+   "cv_mape": 5.5011,
+   "cv_wape": 5.2069,
+   "holdout_mape": 8.0445,
+   "holdout_wape": 8.0028,
+   "folds": [
+    {
+     "train_end": "2022-04",
+     "test_months": [
+      "2022-05",
+      "2022-06",
+      "2022-07"
+     ],
+     "actual": [
+      806669489.0,
+      831181051.0,
+      862989204.0
+     ],
+     "pred": [
+      810692192.0,
+      863810828.0,
+      875268187.0
+     ],
+     "mape": 1.9491,
+     "wape": 1.9566,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-07",
+     "test_months": [
+      "2022-08",
+      "2022-09",
+      "2022-10"
+     ],
+     "actual": [
+      833990736.0,
+      749371351.0,
+      679814740.0
+     ],
+     "pred": [
+      871337921.0,
+      773904116.0,
+      733492550.0
+     ],
+     "mape": 5.216,
+     "wape": 5.106,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2022-10",
+     "test_months": [
+      "2022-11",
+      "2022-12",
+      "2023-01"
+     ],
+     "actual": [
+      608385558.0,
+      619056251.0,
+      621856114.0
+     ],
+     "pred": [
+      656061341.0,
+      657203620.0,
+      661570660.0
+     ],
+     "mape": 6.795,
+     "wape": 6.7884,
+     "zero_actuals": 0
+    },
+    {
+     "train_end": "2023-01",
+     "test_months": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+     ],
+     "actual": [
+      581780816.0,
+      668826041.0,
+      692158886.0
+     ],
+     "pred": [
+      631939756.0,
+      727576327.0,
+      738725632.0
+     ],
+     "mape": 8.0445,
+     "wape": 8.0028,
+     "zero_actuals": 0
+    }
+   ],
+   "params": {
+    "n_estimators": 500,
+    "min_samples_leaf": 2,
+    "features": [
+     "lag1",
+     "lag2",
+     "lag3",
+     "lag12",
+     "roll3",
+     "m_sin",
+     "m_cos",
+     "t"
+    ],
+    "importance": {
+     "lag1": 0.065,
+     "lag2": 0.029,
+     "lag3": 0.03,
+     "lag12": 0.611,
+     "roll3": 0.026,
+     "m_sin": 0.015,
+     "m_cos": 0.202,
+     "t": 0.022
+    }
+   }
+  }
+ ],
+ "best_model": "sarima",
+ "selection_reason": "Lowest rolling-origin WAPE over 4 consecutive 3-month windows",
+ "forecast": {
+  "model": "sarima",
+  "name": "SARIMA",
+  "months": [
+   "2023-05",
+   "2023-06",
+   "2023-07"
+  ],
+  "point": [
+   747837303.0,
+   766526449.0,
+   787503834.0
+  ],
+  "lo80": [
+   650169186.0,
+   647320748.0,
+   645511291.0
+  ],
+  "hi80": [
+   845505419.0,
+   885732150.0,
+   929496377.0
+  ],
+  "lo95": [
+   598466808.0,
+   584217062.0,
+   570344979.0
+  ],
+  "hi95": [
+   897207797.0,
+   948835836.0,
+   1004662689.0
+  ],
+  "interval_method": "SARIMA(1, 1, 0)x(1, 0, 0, 12) model-based intervals"
+ },
+ "all_forecasts": {
+  "naive": {
+   "model": "naive",
+   "name": "Naive",
+   "months": [
+    "2023-05",
+    "2023-06",
+    "2023-07"
+   ],
+   "point": [
+    692158886.0,
+    692158886.0,
+    692158886.0
+   ],
+   "lo80": [
+    611034988.0,
+    576815976.0,
+    530205281.0
+   ],
+   "hi80": [
+    773282784.0,
+    807501796.0,
+    854112491.0
+   ],
+   "lo95": [
+    568093000.0,
+    515760553.0,
+    444477030.0
+   ],
+   "hi95": [
+    816224772.0,
+    868557219.0,
+    939840742.0
+   ],
+   "interval_method": "Point \u00b1 z \u00d7 rolling-origin RMSE at each forecast step"
+  },
+  "snaive": {
+   "model": "snaive",
+   "name": "Seasonal Naive",
+   "months": [
+    "2023-05",
+    "2023-06",
+    "2023-07"
+   ],
+   "point": [
+    806669489.0,
+    831181051.0,
+    862989204.0
+   ],
+   "lo80": [
+    750956054.0,
+    779864557.0,
+    811166761.0
+   ],
+   "hi80": [
+    862382924.0,
+    882497545.0,
+    914811647.0
+   ],
+   "lo95": [
+    721464797.0,
+    752700770.0,
+    783735156.0
+   ],
+   "hi95": [
+    891874181.0,
+    909661332.0,
+    942243252.0
+   ],
+   "interval_method": "Point \u00b1 z \u00d7 rolling-origin RMSE at each forecast step"
+  },
+  "sarima": {
+   "model": "sarima",
+   "name": "SARIMA",
+   "months": [
+    "2023-05",
+    "2023-06",
+    "2023-07"
+   ],
+   "point": [
+    747837303.0,
+    766526449.0,
+    787503834.0
+   ],
+   "lo80": [
+    650169186.0,
+    647320748.0,
+    645511291.0
+   ],
+   "hi80": [
+    845505419.0,
+    885732150.0,
+    929496377.0
+   ],
+   "lo95": [
+    598466808.0,
+    584217062.0,
+    570344979.0
+   ],
+   "hi95": [
+    897207797.0,
+    948835836.0,
+    1004662689.0
+   ],
+   "interval_method": "SARIMA(1, 1, 0)x(1, 0, 0, 12) model-based intervals"
+  },
+  "rf": {
+   "model": "rf",
+   "name": "Random Forest",
+   "months": [
+    "2023-05",
+    "2023-06",
+    "2023-07"
+   ],
+   "point": [
+    783266929.0,
+    826497757.0,
+    850756185.0
+   ],
+   "lo80": [
+    732810719.0,
+    774544023.0,
+    798000838.0
+   ],
+   "hi80": [
+    833723140.0,
+    878451491.0,
+    903511532.0
+   ],
+   "lo95": [
+    706102312.0,
+    747042920.0,
+    770075411.0
+   ],
+   "hi95": [
+    860431546.0,
+    905952593.0,
+    931436959.0
+   ],
+   "interval_method": "Point \u00b1 z \u00d7 rolling-origin RMSE at each forecast step"
+  }
+ },
+ "interpretation": {
+  "seasonality_trend": "Seasonality is clear: seasonal strength 0.91 on a 0 to 1 scale. Demand peaks in Jul (123% of an average month) and bottoms out in Feb (84%). Trend strength is 0.29; the last 12 months are -5.2% versus the 12 before. The seasonal models capture this pattern, while Naive cannot, because it simply carries the last month forward.",
+  "best_model": "SARIMA performed best, with rolling-origin WAPE 2.34% and MAPE 2.29% over 12 test months (3-month holdout WAPE 2.75%), against 12.04% for the Naive baseline. Ranking by WAPE: SARIMA 2.34%, Random Forest 5.21%, Seasonal Naive 5.54%, Naive 12.04%. It wins because it models the 12-month seasonal cycle and the level of recent months together.",
+  "recommendations": [
+   "Plan production for 2023-05 to 2023-07 at about 2,302 million category units in total (-8.0% versus the same months last year), and scale that to the new product's expected share.",
+   "Hold an extra buffer of about 359 million units across the three months (the gap to the 80% upper bound) to protect service in the peak season.",
+   "Front-load distribution before Jul, the peak month, and plan promotions or capacity for the Feb trough.",
+   "Re-run the forecast monthly as new sell-through data for the flavoured water arrives, and switch from the category proxy to the product's own history once about 12 months exist."
+  ]
+ },
+ "llm": {
+  "provider": "Google Gemini",
+  "model": "gemini-3.6-flash",
+  "status": "fallback",
+  "text": "[FALLBACK: deterministic summary, not an LLM response. Add GEMINI_API_KEY to Colab Secrets and re-run.] Seasonality is clear: seasonal strength 0.91 on a 0 to 1 scale. Demand peaks in Jul (123% of an average month) and bottoms out in Feb (84%). Trend strength is 0.29; the last 12 months are -5.2% versus the 12 before. The seasonal models capture this pattern, while Naive cannot, because it simply carries the last month forward. SARIMA performed best, with rolling-origin WAPE 2.34% and MAPE 2.29% over 12 test months (3-month holdout WAPE 2.75%), against 12.04% for the Naive baseline. Ranking by WAPE: SARIMA 2.34%, Random Forest 5.21%, Seasonal Naive 5.54%, Naive 12.04%. It wins because it models the 12-month seasonal cycle and the level of recent months together. Plan production for 2023-05 to 2023-07 at about 2,302 million category units in total (-8.0% versus the same months last year), and scale that to the new product's expected share."
+ }
+}

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+notebook/aquacast_outputs/
+data/raw/
+
+# Node / Next.js
+node_modules/
+web/.next/
+web/out/
+*.tsbuildinfo
+web/next-env.d.ts
+
+# Secrets
+.env
+.env.*
+!.env.example
+.vercel
+
+# OS
+.DS_Store
+Thumbs.db
